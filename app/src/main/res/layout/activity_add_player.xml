@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddPlayer">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="42dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/caribbean_green_border"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heading_add_player"
+                android:textAlignment="center"
+                android:textColor="@color/Caribbean_Green"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edt_playerOne"
+                android:layout_width="match_parent"
+                android:layout_height="60.dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/caribbean_green_border"
+                android:drawableStart="@drawable/ic_x"
+                android:drawablePadding="20dp"
+                android:hint="@string/edt_player1"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColor="@color/Caribbean_Green"
+                android:textColorHint="@color/black60"
+                android:textStyle="italic"
+
+                />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edt_playerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="60.dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/caribbean_green_border"
+                android:drawableStart="@drawable/ic_o"
+                android:drawablePadding="20dp"
+                android:hint="@string/edt_player2"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColor="@color/Caribbean_Green"
+                android:textColorHint="@color/black60"
+                android:textStyle="italic"
+
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnStartGame"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/caribbean_green_border"
+                android:backgroundTint="@color/Caribbean_Green"
+                android:text="@string/start_btn"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
