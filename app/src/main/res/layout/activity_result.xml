@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/Caribbean_Green"
+        android:background="@color/red"
         android:orientation="vertical">
         <TextView
             android:id="@+id/messageText"
@@ -34,8 +34,8 @@
             android:backgroundTint="@color/white"
             android:text="Start Again"
             android:layout_margin="20dp"
-            android:textColor="@color/Caribbean_Green"
-            android:background="@drawable/caribbean_green_border"
+            android:textColor="@color/red"
+            android:background="@drawable/red_border"
             />
     </LinearLayout>
 </RelativeLayout>

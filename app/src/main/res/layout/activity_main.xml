@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Caribbean_Green"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center"
-            android:background="@drawable/black_border">
+            android:background="@drawable/white_and_red_border">
             <TextView
                 android:id="@+id/edtPlayerOneName"
                 android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:textSize="24sp"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textColor="@color/Caribbean_Green"
+                android:textColor="@color/red"
                 android:maxLines="1" />
             <ImageView
                 android:layout_width="40dp"
@@ -63,7 +63,7 @@
                 android:textSize="24sp"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textColor="@color/Caribbean_Green"
+                android:textColor="@color/red"
                 android:maxLines="1" />
             <ImageView
                 android:layout_width="40dp"
